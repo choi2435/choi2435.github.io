@@ -1,0 +1,353 @@
+body{
+    font-family: 'Montserrat', 'Source Sans Pro',sans-serif;
+    border:0px solid grey;
+}
+
+
+
+div{
+    border: 0px solid green;
+    padding:0px;
+}
+
+
+p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.shnav{
+   margin:0px;
+    padding:0px;
+    
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: white;
+    
+
+}
+
+.logo{
+    text-align: center;
+    justify-content:center;
+    padding:10px;
+    border-bottom: 1px solid #E4E3E2;
+}
+
+.logo img{
+    width: 9%;
+    
+}
+
+.shnav li{
+        padding-top:0px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.shnav ul{
+    
+    display: flex;
+    justify-content:center;
+    padding:0px;
+    margin: 10px;
+    list-style-type: none;
+   
+}
+
+.shnav a{
+    display: flex;
+    text-decoration: none;
+    color:  gray;
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-left:10px;
+    padding-right:10px;  
+}
+
+.home{
+    margin-left: 50px;
+}
+
+.sign{
+    margin-right: 50px;
+}
+
+.logo{
+    
+    align-items: center;
+    margin: 0px;
+    
+}
+
+
+.shnav a:hover{
+    color:#2bd3c6;
+    font-size: 16px;
+    
+}
+
+a:active{
+    color:
+}
+
+.button:hover{
+    color: #2bd3c6;
+    background-color:white;
+    
+}
+
+.heading{
+    margin-top: 150px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 0%;
+    padding-right:0%;
+    min-width: 1000px;
+    max-height: 1000px;
+    background-image: url(images/pic_main01.jpeg);
+    background-size:cover;
+    background-color: black;
+    background-position:center;
+    background-repeat: no-repeat;
+    
+    color:aliceblue;
+}
+
+.heading h1{
+    padding-top:0px;
+    padding-bottom: 5px;
+    text-align: center; 
+    font-size: 40px;
+    margin:0px;
+    
+    
+}
+
+.heading p{
+    margin:0px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.button{
+
+    padding: 5px 7px;
+    text-decoration: none;
+    color: white;
+    background-color: #2bd3c6;
+    
+}
+
+.grandma{
+    flex-wrap: wrap;
+    width:70%;
+    min-width: 400px;
+    margin: auto;
+    padding: 5%;
+}
+
+
+.shparent{
+    display: flex;
+
+    padding:10px;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    
+}
+
+.box{
+    flex: 1;
+    min-width: 300px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+.box img{
+    width:95%;
+    align-items: center;
+}
+
+
+.paragraph{
+    text-align: center;
+    word-wrap: break-word;
+    margin:0px;
+    padding: 10px 5px;
+    
+}
+
+.paragraph p{
+    margin:5px 0px 20px 0px;
+   
+}
+
+.paragraph h4{
+    margin:0px;
+}
+
+.box h4{
+    grey;
+    padding-top: 8px;
+    margin: 0px;
+}
+.box p{
+    margin:0px;
+    padding: 5px 5px;   
+}
+
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #2bd3c6; 
+    padding:10px 10%;
+  
+}
+
+.footer ul{
+   
+
+    list-style-type: none;
+    font-size: 12px;
+    flex:1;
+    flex-wrap: wrap;
+     min-width: 100px;
+    
+}
+
+.footer li{
+
+    flex-wrap: wrap;
+     min-width: 200px;
+    text-transform: capitalize;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color:#2bd3c6;
+    flex-wrap: wrap;
+     min-width: 200px;
+    
+}
+
+.footer a:hover{
+    color:grey;
+    font-size: 14px;
+    
+}
+
+ul{
+    list-style-type: none;
+    
+}
+li {
+    padding: 6px;
+}
+
+.menu {
+    display: flex;
+    padding-left: 100px;
+    padding-top: 250px;
+    
+}
+
+.menunav a{
+    text-decoration: none;
+}
+
+
+#specialty, #seasonal, #toppings {
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+    padding: 5%;
+    border-bottom: 1px solid #2bd3c6;
+    text-align: center;
+}
+
+#specialty{
+    background-color:#FFFFFF;
+    
+}
+
+#seasonal{
+    background-color:#FFFFFF; 
+}
+
+#toppings{
+    background-color:#FFFFFF; 
+}
+
+.join{
+
+    background-color:#2bd3c6;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+    
+}
+
+.join input{
+    display: block;
+    width:100%;
+    height:50px;
+    margin-bottom: 20px;
+}
+
+.join h1, .join h2{
+      text-align: center;
+      color: white;
+      
+}
+
+form{
+    color: white;
+    
+}
+
+.button:hover {
+  background-color: darkgray;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.price{
+    display: flex; 
+    padding-left: 35%;
+    padding-right:30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pricecommit{
+    padding-right: 50px;
+}
+
+
+.direction{
+    display: flex;
+    padding-left: 20%;
+    padding-right:20%;    
+}
+
+.address{
+    padding-left:5%;
+}
+
